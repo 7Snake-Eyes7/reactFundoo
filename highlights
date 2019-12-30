@@ -12,3 +12,9 @@ tree, log those errors & display a fall-back ui.
 Higher Order Components (HOC) - A pattern where a fn takes component as an argument & returns
     new component.
 
+Render props - the term render props refers to a technique for sharing code react components
+    using a prop whose value is a function
+
+Context - context provides a way to pass data through the component tree without having to pass
+    props down manually at every level
+    create & export (producer & consumer)
