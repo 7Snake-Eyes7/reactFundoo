@@ -1,0 +1,14 @@
+portals give us the ability to break out of dom
+
+problem - Error: ENOSPC: System limit for number of file watchers reached
+solution - echo fs.inotify.max_user_watches=524288
+            sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+Error boundaries are react components that catch java script error in their child component
+tree, log those errors & display a fall-back ui.
+    A class component ll become an error boundary by defining either or both of
+    getDerivedStateFromError & componentDidCatch Lifecycle methods.
+
+Higher Order Components (HOC) - A pattern where a fn takes component as an argument & returns
+    new component.
+
