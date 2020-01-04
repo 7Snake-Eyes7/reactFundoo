@@ -23,4 +23,24 @@ CORS - cross origins resource sharing
 
 redirect is used to surf between components 
 
+uri - location & name
+urn - name
+url - location  (url is widely used, since address ll be unique)
 
+Query strings are way of passing information to the server (consider a typical example of 
+    fetching the eAddress from eid, if we pass the info in header its a query String)
+
+fragments are a way of requesting portion of a page, we can identify them by # and are located
+    at the end of of url's
+
+A typical URI/L consists of  
+[http/s/fttp/...protocols+domain/ip address{/port}/path/Query Strings/{fragments}]
+
+react component route path uses regex to match the req & path hence we need to specify exact so
+    even if one or more components follow the same path, only required component is loaded
+    --i can use 'strict'(compo route - '/about/' - if i dont use strict if user queries for even 
+    --'/about' the compo ll be loaded but if i use strict the exact url should be specified like
+    --this '/about/)
+
+Styling react - i can use these to style my react (inline styles, Radium, Styled Components,
+                BEM, css modules)
