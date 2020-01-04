@@ -11,7 +11,7 @@ export function NoteController() {
   };
   return axios.get(
     "http://localhost:9020/" +
-      "notes/getnotes/" +
+      "note/fetchNote/" +
       localStorage.getItem("token"),
     { header: header }
   );
@@ -30,13 +30,10 @@ export function getAllLabels() {
 }
 export function createNote(noteDetails) {
   console.log(localStorage.getItem("token"));
-  let header = {
-    "Content-Type": "application/json"
-  };
   return axios.post(
     "http://localhost:9020/note/create/" + localStorage.getItem("token"),
     noteDetails,
-    { header: header }
+    { headers: headers }
   );
 }
 export function updateNote(note, id) {

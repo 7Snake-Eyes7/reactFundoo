@@ -11,7 +11,7 @@ class Verify extends Component {
   handleSubmit = () => {
     const token = this.props.match.params.token;
     userVerify(token).then(res => {
-      console.log(res.data);
+      localStorage.getItem("token", res.data.token);
       // if(res.status===200)
       this.props.history.push("/");
     });

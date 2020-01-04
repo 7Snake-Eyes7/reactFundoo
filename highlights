@@ -18,3 +18,9 @@ Render props - the term render props refers to a technique for sharing code reac
 Context - context provides a way to pass data through the component tree without having to pass
     props down manually at every level
     create & export (producer & consumer)
+
+CORS - cross origins resource sharing 
+
+redirect is used to surf between components 
+
+

@@ -205,7 +205,7 @@ this.getLabels();
                         <MenuItem onClick={this.remainderpage}>
                             <AddAlertOutlinedIcon />
                            
-                                Reaminders
+                                Reminders
                     
                         </MenuItem>
 

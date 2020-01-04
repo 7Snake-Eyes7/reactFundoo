@@ -44,8 +44,8 @@ class Note extends Component {
         })
     }
     handleClickClose = () => {
-        // console.log(this.state.title)
-        // console.log(this.state.description)
+        console.log(this.state.title)
+        console.log(this.state.description)
         if (this.state.title === "" && this.state.description === "") {
             return this.setState({
                 windowOpen: !this.state.windowOpen,
