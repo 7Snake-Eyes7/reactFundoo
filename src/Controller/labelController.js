@@ -8,7 +8,7 @@ let headers = {
 
 var controller={
     getAllLabel(){
-        return axios.get("http://localhost:9020/label/getAllLabel",  {
+        return axios.get("http://localhost:9020/labels/getAllLabel",  {
             headers: headers
         });
     },
