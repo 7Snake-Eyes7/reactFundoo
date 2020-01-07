@@ -85,7 +85,7 @@ var controller={
     },
     removeReminder(noteId) {
         console.log(noteId);
-        // return axios.post("http://localhost:8080/note/removereminder?noteId="+noteId,null, {
+        // return axios.post("http://localhost:9020/note/removereminder?noteId="+noteId,null, {
         //     headers: headers
         // });
     },
