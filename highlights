@@ -44,3 +44,12 @@ react component route path uses regex to match the req & path hence we need to s
 
 Styling react - i can use these to style my react (inline styles, Radium, Styled Components,
                 BEM, css modules)
+
+Authentication (verifying identity) - 401 Unauthorized
+Authorization (verifying permisiions) - 403 forbidden
+
+csrf - Cross side request forgery
+
+
+
+
