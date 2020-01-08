@@ -13,6 +13,7 @@ import ArchiveNotesPage from './Pages/ArchiveNotesPage';
 import NotesLabelsDisplay from './Pages/NotesLabelsDisplay';
 import ReminderPage from './Pages/ReminderPage';
 import SearchPage from './Pages/SearchPage';
+import Appbar from './Components/Appbar';
 
 
 
@@ -35,7 +36,7 @@ class App extends Component {
         <Route path="/notelabels/:labelName" component={NotesLabelsDisplay} ></Route> 
         <Route path="/reminders" component={ReminderPage} ></Route> 
         <Route path="/search" component={SearchPage} ></Route> 
-
+        <Route path="/appbar" component={Appbar} ></Route> 
       </Router>
 
 
