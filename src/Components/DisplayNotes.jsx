@@ -307,7 +307,7 @@ class DisplayNotes extends Component {
             //console.log("noteid is----->", note.id);
             return (
                 // ( note === null || note.reminder === null)? '' :
-                <div key={note.id} >
+                <div key={note.id} className={"displaynotes-main"} >
                     <MuiThemeProvider theme={theme} >
 
                         <Card className={displaycard} style={{
