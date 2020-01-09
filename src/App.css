@@ -90,6 +90,9 @@
   height: auto;
   align-items: center;
   justify-content: center;
+  @media (min-width: 600px) {
+    text-align: center;
+  }
 }
 .appBar-tool {
   background: white;
@@ -338,7 +341,7 @@
   margin: 20px;
   width: 500px;
   height: auto;
-  /* margin-left:80px;  */
+  margin-left: 150px;
 }
 .view-card {
   width: auto;
