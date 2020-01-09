@@ -23,7 +23,7 @@ const themes = createMuiTheme({
     overrides: {
         MuiDrawer: {
             paperAnchorLeft: {
-                width: 280,
+                width: 180,
                 top: 65,
                 height: "90%",
                 background: 'white',
