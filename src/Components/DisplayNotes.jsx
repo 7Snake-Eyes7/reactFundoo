@@ -312,7 +312,7 @@ class DisplayNotes extends Component {
 
                         <Card className={displaycard} style={{
                             backgroundColor: note.colour,
-                            transform: (!this.props.menu) ? "translate(80px,0)" : null,
+                            transform: (!this.props.menu) ? "translate(60px,0)" : null,
                             transition: (this.props.menu) ? ("0.3s") : ("0.3s")
                         }}
                         >
