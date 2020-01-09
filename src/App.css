@@ -390,3 +390,7 @@
 .create-display {
   margin-top: 65px;
 }
+
+.MuiSvgIcon-root {
+  float: right;
+}
