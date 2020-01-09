@@ -153,13 +153,6 @@ export default class CreateNote extends Component {
                                                 </Tooltip>
                                             </div>
                                             <div>
-                                                <Tooltip title="collaborator">
-                                                    <IconButton aria-label="collaborator">
-                                                        <PersonAddIcon />
-                                                    </IconButton>
-                                                </Tooltip>
-                                            </div>
-                                            <div>
                                                 <Tooltip title="colour">
                                                     <IconButton aria-label="colour">
                                                         <PaletteOutlinedIcon />
