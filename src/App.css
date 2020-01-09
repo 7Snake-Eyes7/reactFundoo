@@ -8,7 +8,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,8 +182,8 @@
   font-size: 15px;
 }
 .noteComponent {
-  margin-top: 80px;
-  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .note-button {
   width: 485px;
@@ -231,19 +231,19 @@
     min-height: 110px;
     border-radius: 20px;
 } */
-.get-cards {
+/* .get-cards {
   display: flex;
   align-items: left;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 43%;
   height: 92vh;
-}
+} */
 .dashboard-displayNotes {
-  width: 100%;
-  height: 100vh;
+  /* width: 100%;
+  height: 100vh; */
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
 .createNote-container {
@@ -372,6 +372,18 @@
 .savebutton {
   margin-right: 11px;
 }
-.displaynotes-main{
-  margin:10px
+.displaynotes-main {
+  margin: 10px;
+}
+.get-cards {
+  margin-top: 0px;
+  margin-left: 180px;
+  margin-right: 180px;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.create-display {
+  margin-top: 65px;
 }
