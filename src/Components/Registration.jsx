@@ -81,7 +81,7 @@ class Registration extends Component {
         name: this.state.name,
         email: this.state.email,
         password: this.state.password,
-        mobNo: this.state.mobileNumber
+        mobileNumber: this.state.mobileNumber
       };
 
       // userRegister.then(response => {
